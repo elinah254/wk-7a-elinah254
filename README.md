@@ -32,9 +32,9 @@ Task:
 
 | OrderID | CustomerName  | Products                        |
 |---------|---------------|---------------------------------|
-| 101     | John Doe      | Laptop, Mouse                   |
-| 102     | Jane Smith    | Tablet, Keyboard, Mouse         |
-| 103     | Emily Clark   | Phone                           |
+| 101     | Elinah M      | Laptop, Mouse                   |
+| 102     | Jane Liz      | Tablet, Keyboard, Mouse         |
+| 103     | Emily gray    | Phone                           |
 
 
 - In the table above, the **Products column** contains multiple values, which violates **1NF**.
@@ -48,12 +48,12 @@ Task:
 
 | OrderID | CustomerName  | Product      | Quantity |
 |---------|---------------|--------------|----------|
-| 101     | John Doe      | Laptop       | 2        |
-| 101     | John Doe      | Mouse        | 1        |
-| 102     | Jane Smith    | Tablet       | 3        |
-| 102     | Jane Smith    | Keyboard     | 1        |
-| 102     | Jane Smith    | Mouse        | 2        |
-| 103     | Emily Clark   | Phone        | 1        |
+| 101     | Elinah M      | Laptop       | 2        |
+| 101     |  Jane Liz     | Mouse        | 1        |
+| 102     | Emily gray    | Tablet       | 3        |
+| 102     | Joy Shiro     | Keyboard     | 1        |
+| 102     | Davie Ali     | Mouse        | 2        |
+| 103     | Kay Griff     | Phone        | 1        |
 
 - In the table above, the **CustomerName** column depends on **OrderID** (a partial dependency), which violates **2NF**. 
 
